@@ -1,0 +1,41 @@
+peer_id,sector,sub_sector,employees,building_area_sqm,annual_revenue_cr,region,daily_co2e_kg,energy_intensity,renewable_percentage,has_certification,efficiency_score
+P00001,Manufacturing,Textile,45,2500,12.5,North,1250.5,85.2,5,TRUE,72
+P00002,Manufacturing,Automotive,120,5000,45.8,West,3360.2,92.1,8,TRUE,68
+P00003,Manufacturing,Electronics,80,3200,28.3,South,2240.8,78.5,12,FALSE,75
+P00004,Manufacturing,Chemical,200,8000,95.6,East,5600.4,95.3,3,TRUE,55
+P00005,Manufacturing,Pharma,150,6000,85.2,West,4200.6,88.7,15,TRUE,71
+P00006,Retail,Apparel,30,1500,8.5,North,420.8,45.2,8,FALSE,82
+P00007,Retail,Grocery,65,2800,22.4,South,910.5,52.3,5,TRUE,76
+P00008,Retail,Electronics,45,1800,15.6,West,630.2,48.1,10,FALSE,79
+P00009,Retail,Furniture,85,3500,32.8,East,1190.5,55.6,4,TRUE,71
+P00010,Retail,Pharmacy,25,1200,7.2,North,350.8,42.3,12,FALSE,84
+P00011,IT Services,Software,35,800,12.5,South,225.6,35.2,25,TRUE,88
+P00012,IT Services,Cloud,150,3000,65.8,West,975.6,42.1,30,TRUE,85
+P00013,IT Services,Consulting,80,1500,32.5,North,520.8,38.5,20,FALSE,86
+P00014,IT Services,DataCenter,200,5000,95.2,East,1800.5,68.3,15,TRUE,72
+P00015,IT Services,SaaS,120,2200,52.6,West,780.2,40.2,28,TRUE,84
+P00016,Warehousing,Logistics,60,8000,18.5,West,1200.3,85.6,2,FALSE,65
+P00017,Warehousing,ColdStorage,80,10000,28.4,North,1600.8,92.3,0,TRUE,58
+P00018,Warehousing,Distribution,100,12000,35.6,South,2000.5,88.9,5,FALSE,62
+P00019,Warehousing,Fulfillment,70,9000,22.3,East,1400.2,86.5,3,TRUE,64
+P00020,Warehousing,CrossDock,45,6000,15.8,West,900.6,84.2,8,FALSE,68
+P00021,FoodProcessing,Dairy,90,4000,32.5,West,1980.5,86.5,10,TRUE,70
+P00022,FoodProcessing,Bakery,55,2500,18.2,North,1210.8,88.2,5,FALSE,72
+P00023,FoodProcessing,Beverages,120,5500,45.6,South,2640.3,89.5,8,TRUE,68
+P00024,FoodProcessing,Meat,150,7000,58.4,East,3300.6,92.1,2,TRUE,60
+P00025,FoodProcessing,Grain,80,3500,28.9,West,1760.2,86.8,12,FALSE,71
+P00026,Logistics,Trucking,250,5000,85.6,West,6250.8,95.2,1,TRUE,52
+P00027,Logistics,Shipping,180,3000,62.3,South,4680.5,88.5,2,TRUE,58
+P00028,Logistics,Rail,300,8000,95.8,East,7200.6,82.3,5,TRUE,62
+P00029,Logistics,AirCargo,120,2500,48.5,North,4200.8,98.5,0,FALSE,48
+P00030,Logistics,LastMile,85,2000,28.6,West,2125.5,92.8,3,FALSE,56
+P00031,Manufacturing,Metal,250,10000,88.5,South,7000.5,96.2,4,TRUE,50
+P00032,Retail,DepartmentStore,150,5000,55.6,West,2100.8,58.5,6,TRUE,72
+P00033,IT Services,Cybersecurity,55,1200,22.5,North,357.5,36.2,35,TRUE,89
+P00034,Warehousing,AutomotiveParts,95,11000,32.5,South,1900.5,87.5,4,TRUE,63
+P00035,FoodProcessing,Snacks,65,3000,24.5,West,1430.8,85.2,15,FALSE,73
+P00036,Logistics,Courier,150,3500,42.5,North,3750.6,90.2,2,TRUE,55
+P00037,Manufacturing,Plastics,110,4500,38.5,East,3080.2,89.5,6,FALSE,65
+P00038,Retail,Electronics,95,3800,35.5,South,1330.5,50.2,15,TRUE,80
+P00039,IT Services,FinTech,140,2800,62.5,West,910.6,38.5,40,TRUE,86
+P00040,Warehousing,Ecommerce,200,15000,75.5,North,4000.8,90.2,8,TRUE,60

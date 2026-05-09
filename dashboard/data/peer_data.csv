@@ -1,0 +1,501 @@
+peer_id,sector,sub_sector,employees,building_area_sqm,annual_revenue_cr,region,daily_co2e_kg,energy_intensity,renewable_percentage,has_certification,efficiency_score
+P00001,Warehousing,CrossDock,76,12064,60.1,East,1143.0,56.7,5.7,False,76.3
+P00002,FoodProcessing,Bakery,418,7049,1.1,West,9481.6,38.0,39.0,True,67.7
+P00003,Logistics,Courier,368,7834,98.3,East,11516.1,64.3,0.5,False,61.0
+P00004,Logistics,Shipping,269,7613,10.7,South,3887.6,67.2,1.4,False,83.8
+P00005,Warehousing,ColdStorage,6,1121,52.5,West,102.7,85.4,37.6,False,80.9
+P00006,Logistics,Courier,194,6539,84.6,West,4785.9,97.7,24.3,True,76.2
+P00007,FoodProcessing,Grain,349,8106,42.9,North,3615.2,47.9,28.5,False,77.7
+P00008,IT Services,SaaS,235,6284,91.6,South,1534.2,59.1,26.8,False,77.1
+P00009,Warehousing,AutomotiveParts,39,5156,38.9,East,510.4,37.6,28.4,True,80.9
+P00010,Warehousing,CrossDock,67,963,64.0,East,1705.9,51.2,16.4,False,59.4
+P00011,Warehousing,CrossDock,247,3257,88.2,East,2387.8,64.7,8.7,False,85.5
+P00012,Logistics,Rail,352,5692,32.5,South,6930.2,88.2,34.4,True,70.1
+P00013,IT Services,Software,229,13645,34.4,Central,2000.2,80.7,14.5,False,73.2
+P00014,Warehousing,Fulfillment,391,7380,15.7,South,5538.5,57.4,25.4,False,72.2
+P00015,FoodProcessing,Meat,164,10025,25.0,South,4263.9,82.3,14.7,False,65.2
+P00016,Logistics,Courier,244,6387,83.7,East,2925.9,73.4,27.1,True,74.6
+P00017,IT Services,FinTech,152,3011,10.5,East,1333.0,89.5,27.0,False,74.2
+P00018,Retail,DepartmentStore,103,362,66.3,South,1551.1,50.7,3.7,False,74.8
+P00019,FoodProcessing,Beverages,237,3270,70.3,North,5507.8,92.7,34.0,False,69.7
+P00020,Warehousing,AutomotiveParts,258,11475,11.0,West,6005.6,77.4,9.0,False,62.6
+P00021,Manufacturing,Metal,308,4087,37.3,Central,9285.2,70.3,20.4,False,68.3
+P00022,Logistics,Courier,55,10777,90.7,Central,678.6,78.5,34.6,True,80.3
+P00023,IT Services,DataCenter,196,11412,5.3,East,1526.3,92.4,29.9,False,71.0
+P00024,FoodProcessing,Dairy,99,3270,98.1,Central,1830.1,52.5,19.4,False,69.3
+P00025,Retail,DepartmentStore,327,1995,8.0,South,4855.0,51.5,11.8,True,59.8
+P00026,Manufacturing,Textile,250,7443,55.7,East,4979.6,74.7,3.3,True,66.5
+P00027,Warehousing,CrossDock,325,12139,70.5,West,6209.0,59.4,3.8,False,69.1
+P00028,Logistics,Rail,190,674,98.2,North,3686.7,37.5,12.1,False,69.6
+P00029,FoodProcessing,Dairy,64,3151,96.6,Central,1633.9,61.7,28.0,True,60.2
+P00030,FoodProcessing,Bakery,110,1793,5.1,West,2036.9,51.3,7.4,True,69.9
+P00031,Manufacturing,Chemical,133,1181,91.6,Central,1726.0,46.9,37.4,False,79.9
+P00032,FoodProcessing,Grain,251,8230,25.5,Central,5620.9,42.5,1.8,True,57.0
+P00033,Logistics,Courier,457,13615,2.7,West,10722.0,65.2,26.0,True,67.8
+P00034,Logistics,LastMile,294,11543,38.1,West,7966.3,77.8,6.5,True,81.3
+P00035,Retail,Apparel,388,6403,94.1,West,3100.8,64.8,21.8,False,90.6
+P00036,IT Services,Software,172,4013,21.5,North,1117.4,37.5,24.7,True,73.1
+P00037,Retail,Pharmacy,462,9917,34.7,South,7165.3,57.6,37.5,True,61.6
+P00038,Manufacturing,Pharma,253,8967,18.6,Central,10881.8,61.8,14.9,False,67.4
+P00039,Logistics,LastMile,373,3866,75.3,West,9149.0,67.8,33.1,True,74.4
+P00040,IT Services,Consulting,104,495,95.9,North,1069.9,79.0,19.3,False,78.0
+P00041,FoodProcessing,Grain,400,7292,55.8,East,11047.3,98.3,39.8,True,73.8
+P00042,IT Services,FinTech,239,8110,12.6,Central,2541.4,41.6,3.4,False,64.1
+P00043,Retail,Apparel,287,2781,15.5,South,2547.7,91.1,35.2,True,82.3
+P00044,Manufacturing,Pharma,296,3241,71.1,West,3863.7,51.2,13.2,False,85.8
+P00045,FoodProcessing,Grain,224,3809,6.6,South,7438.8,97.5,15.0,True,64.3
+P00046,Manufacturing,Metal,138,2205,2.2,Central,5094.1,39.8,22.2,False,74.4
+P00047,Retail,Apparel,18,13554,46.0,North,406.5,38.0,11.2,False,70.1
+P00048,Logistics,AirCargo,377,13419,17.8,West,4847.3,52.3,14.4,True,87.0
+P00049,IT Services,Cybersecurity,205,13316,41.7,North,894.1,40.0,37.6,False,84.8
+P00050,FoodProcessing,Dairy,14,2971,87.8,South,220.2,85.5,19.2,False,80.2
+P00051,IT Services,SaaS,67,13628,97.0,South,632.4,62.0,10.9,True,69.3
+P00052,Logistics,AirCargo,201,9960,99.7,North,7725.6,90.2,9.9,False,60.2
+P00053,Logistics,Trucking,177,816,21.5,East,3073.5,52.5,0.9,False,70.0
+P00054,Logistics,Courier,383,4463,81.8,East,9186.2,62.3,31.4,False,73.6
+P00055,IT Services,Consulting,230,7049,61.2,West,1883.5,82.2,21.9,False,74.1
+P00056,Warehousing,AutomotiveParts,55,10420,95.0,South,616.1,98.7,19.7,True,82.5
+P00057,IT Services,Consulting,375,6354,13.8,East,2981.1,57.5,35.9,False,62.6
+P00058,FoodProcessing,Bakery,126,11414,5.0,Central,2114.8,40.8,4.8,False,70.0
+P00059,Retail,DepartmentStore,437,13489,33.7,South,5103.3,79.7,20.5,True,73.3
+P00060,FoodProcessing,Dairy,296,13668,9.4,South,7583.3,95.1,9.4,False,68.8
+P00061,Logistics,Shipping,158,4721,15.6,Central,4614.0,83.7,1.2,False,63.1
+P00062,Logistics,Rail,19,13603,27.7,East,355.9,48.7,13.1,True,71.2
+P00063,Manufacturing,Pharma,29,9895,36.2,West,789.4,82.9,22.3,False,83.1
+P00064,Warehousing,Distribution,429,10952,36.9,South,9654.3,99.1,24.2,True,72.6
+P00065,Logistics,LastMile,354,7086,9.7,West,6568.2,98.4,19.6,False,64.7
+P00066,Logistics,Trucking,339,11054,57.6,South,7470.5,56.0,17.0,False,59.2
+P00067,Manufacturing,Chemical,94,13041,29.6,North,1861.1,69.6,2.1,True,79.9
+P00068,Retail,Pharmacy,176,7141,32.9,South,2321.1,84.4,23.8,False,78.3
+P00069,IT Services,Cybersecurity,73,14753,74.9,North,996.0,48.3,15.2,False,64.1
+P00070,Logistics,AirCargo,332,12142,79.7,Central,5121.7,87.9,26.6,False,71.5
+P00071,Warehousing,Logistics,46,2236,68.6,Central,1646.0,75.6,21.6,False,54.7
+P00072,Manufacturing,Textile,229,11346,39.0,North,8427.1,42.6,37.6,False,63.8
+P00073,Retail,Furniture,293,10327,74.4,Central,5778.8,44.3,8.2,False,68.8
+P00074,FoodProcessing,Beverages,357,13529,82.3,South,9415.1,44.7,9.2,False,67.1
+P00075,Retail,Electronics,247,10247,54.7,East,2256.2,94.0,23.3,False,69.6
+P00076,Retail,DepartmentStore,400,10557,59.0,East,6414.9,91.7,37.3,False,52.3
+P00077,Warehousing,CrossDock,332,226,16.1,Central,9319.7,82.9,37.4,False,62.6
+P00078,Manufacturing,Metal,409,3517,84.1,Central,12247.4,60.9,2.2,True,75.1
+P00079,Warehousing,Logistics,158,13324,12.3,Central,5003.7,65.3,19.2,False,60.9
+P00080,IT Services,Consulting,255,13590,25.6,West,1159.6,55.2,31.2,True,80.3
+P00081,Retail,Furniture,473,11412,18.6,South,6878.9,67.6,23.8,True,75.2
+P00082,IT Services,Consulting,322,2179,47.4,East,2234.7,73.2,11.8,False,88.1
+P00083,Retail,Grocery,117,10453,50.2,West,1343.7,39.9,30.1,True,73.9
+P00084,IT Services,Cybersecurity,384,12356,3.5,South,4244.8,36.8,8.9,True,62.5
+P00085,IT Services,FinTech,332,7321,34.6,Central,3833.4,81.9,32.2,False,63.6
+P00086,Logistics,Rail,169,12569,21.3,West,3021.8,40.6,8.3,True,64.0
+P00087,FoodProcessing,Beverages,289,4277,89.4,West,5159.3,59.7,23.6,True,79.2
+P00088,FoodProcessing,Grain,230,13464,30.2,North,8095.5,62.6,0.9,True,62.6
+P00089,Retail,Pharmacy,363,7468,14.8,North,2974.4,36.2,36.6,True,80.2
+P00090,Warehousing,Logistics,21,5896,65.5,South,262.0,43.9,36.0,False,76.2
+P00091,Retail,Furniture,313,8746,57.8,Central,4682.6,62.4,14.2,False,78.1
+P00092,Manufacturing,Electronics,296,5590,25.3,Central,4686.0,81.7,11.9,False,77.4
+P00093,Retail,DepartmentStore,316,5508,27.7,Central,3688.8,90.0,38.2,True,80.0
+P00094,Manufacturing,Automotive,77,2443,73.1,South,3094.6,51.0,32.8,False,55.0
+P00095,Warehousing,Distribution,16,2422,32.1,South,377.9,40.6,38.3,False,70.1
+P00096,FoodProcessing,Dairy,378,7219,85.1,Central,7422.0,99.2,37.8,True,62.2
+P00097,Retail,Apparel,473,3257,91.6,South,9442.0,96.4,19.0,False,65.6
+P00098,IT Services,Cloud,494,714,4.7,East,2227.6,40.0,27.9,True,83.0
+P00099,Warehousing,Ecommerce,8,5568,66.5,North,158.5,92.0,16.7,False,77.5
+P00100,Retail,DepartmentStore,251,10096,53.4,East,3022.6,75.8,34.9,False,80.9
+P00101,Retail,DepartmentStore,363,4535,74.0,North,4151.4,53.7,11.9,True,71.7
+P00102,Manufacturing,Textile,498,14386,43.3,Central,16078.1,96.7,31.5,True,53.4
+P00103,Logistics,Courier,66,1968,98.9,East,1333.1,89.5,9.2,False,71.0
+P00104,Logistics,Shipping,230,924,22.8,East,5244.4,38.8,38.8,False,62.7
+P00105,IT Services,DataCenter,245,9888,26.8,South,1589.8,93.3,18.5,False,95.0
+P00106,FoodProcessing,Dairy,72,2033,86.2,North,654.6,66.0,1.8,False,82.5
+P00107,Retail,Apparel,265,9710,9.6,North,1787.2,82.0,19.8,True,76.8
+P00108,Warehousing,CrossDock,457,5168,85.3,West,2411.7,88.6,13.9,False,88.1
+P00109,IT Services,SaaS,293,9577,52.6,Central,1896.7,45.4,13.4,True,75.6
+P00110,FoodProcessing,Bakery,195,3838,75.5,West,4040.8,83.3,6.4,False,72.0
+P00111,Logistics,LastMile,16,394,20.1,Central,342.0,42.5,15.1,True,68.9
+P00112,FoodProcessing,Beverages,418,11818,54.6,East,10572.3,95.6,4.1,False,72.1
+P00113,Warehousing,ColdStorage,223,14627,71.1,West,4182.1,75.4,1.8,False,65.5
+P00114,FoodProcessing,Meat,255,5446,59.8,West,6152.4,59.2,32.8,True,73.9
+P00115,Retail,Grocery,289,8807,43.2,South,3297.6,80.1,8.8,True,78.3
+P00116,Logistics,AirCargo,31,3878,95.1,East,815.5,62.3,25.5,False,65.9
+P00117,Manufacturing,Pharma,261,12957,89.5,East,4318.7,77.4,14.7,False,72.0
+P00118,IT Services,DataCenter,149,3776,77.9,North,1772.0,75.7,5.2,True,68.0
+P00119,Warehousing,ColdStorage,408,7825,46.7,East,5434.7,49.7,6.4,False,83.7
+P00120,FoodProcessing,Grain,348,683,31.7,South,5779.6,60.5,19.2,False,71.9
+P00121,IT Services,SaaS,293,2143,78.2,North,1999.8,50.7,39.5,True,67.3
+P00122,Logistics,Courier,152,2820,56.4,West,2377.4,37.2,3.1,False,76.8
+P00123,Retail,DepartmentStore,178,10461,80.3,South,1666.3,76.4,28.3,True,71.5
+P00124,Logistics,Trucking,374,9007,87.2,North,9099.4,88.0,3.2,False,66.5
+P00125,Warehousing,AutomotiveParts,26,8701,48.6,South,780.5,77.3,19.2,False,55.1
+P00126,IT Services,FinTech,177,2027,87.3,West,1090.9,36.4,26.1,True,73.8
+P00127,Manufacturing,Electronics,416,14125,40.9,East,8589.3,89.6,7.0,False,66.0
+P00128,Retail,Pharmacy,297,12903,73.8,West,4296.5,68.4,23.5,True,77.7
+P00129,Retail,Furniture,339,9733,79.5,South,3434.8,65.3,33.4,True,69.8
+P00130,Retail,Furniture,432,625,97.2,South,6507.3,51.1,34.8,False,66.1
+P00131,Manufacturing,Chemical,235,13225,65.6,South,6246.9,35.6,23.5,False,68.4
+P00132,Warehousing,CrossDock,14,12070,44.8,East,262.9,44.5,18.0,False,64.7
+P00133,Warehousing,Logistics,68,7129,17.6,North,1508.9,87.4,23.4,False,82.8
+P00134,Warehousing,Distribution,408,4053,98.7,Central,5485.5,76.6,9.0,True,70.2
+P00135,IT Services,SaaS,183,1329,69.1,North,1610.6,36.1,12.9,False,61.3
+P00136,IT Services,Cloud,298,12215,13.4,West,2172.8,47.2,29.2,True,70.1
+P00137,Logistics,LastMile,197,14746,97.9,South,3574.4,89.0,34.6,False,70.6
+P00138,IT Services,Software,293,3172,22.4,West,2092.8,41.9,26.3,False,86.3
+P00139,Logistics,Trucking,173,5308,87.2,North,4721.0,92.1,16.2,True,74.6
+P00140,Logistics,Rail,86,14832,80.0,South,1931.9,70.4,0.2,True,59.0
+P00141,Warehousing,ColdStorage,407,2975,55.3,Central,9960.7,36.0,23.5,True,73.3
+P00142,Logistics,Shipping,434,12140,38.6,South,9568.1,36.7,13.6,False,75.2
+P00143,Retail,Pharmacy,232,11122,40.0,West,5157.5,68.9,32.9,False,59.4
+P00144,FoodProcessing,Meat,296,9006,38.6,North,5661.6,45.8,24.7,False,63.7
+P00145,Logistics,Rail,243,13567,54.4,Central,7425.8,52.7,16.5,True,55.3
+P00146,IT Services,FinTech,78,13450,53.0,West,620.5,51.7,38.5,False,76.1
+P00147,Logistics,Trucking,380,10000,63.7,West,10265.6,92.5,9.1,True,71.8
+P00148,Retail,Grocery,129,10923,77.2,North,947.7,82.6,34.0,False,84.0
+P00149,Manufacturing,Automotive,168,3140,43.0,East,5103.9,65.7,21.4,True,70.4
+P00150,FoodProcessing,Beverages,459,7427,64.2,West,9584.0,44.2,11.0,False,57.7
+P00151,Retail,Electronics,378,6880,72.0,South,5225.7,40.2,3.4,False,73.9
+P00152,IT Services,Software,383,5289,36.1,North,2574.5,87.0,9.3,False,65.9
+P00153,Logistics,Shipping,304,2528,46.2,East,5423.6,64.0,13.3,False,74.6
+P00154,Retail,Furniture,337,10626,75.7,Central,4131.5,88.4,0.0,True,66.5
+P00155,Warehousing,Distribution,283,4543,97.4,Central,5067.0,41.0,10.3,False,79.6
+P00156,Manufacturing,Pharma,42,9815,71.2,West,711.1,95.9,22.2,True,69.2
+P00157,Warehousing,AutomotiveParts,200,4506,17.0,South,4539.7,60.4,20.0,False,74.3
+P00158,Logistics,Shipping,295,11521,87.9,Central,8128.7,54.8,3.2,False,69.6
+P00159,Retail,Electronics,423,7473,97.6,South,5869.5,91.0,36.9,False,64.2
+P00160,Logistics,Courier,440,11238,95.3,Central,8437.8,66.1,20.2,True,71.2
+P00161,FoodProcessing,Meat,292,12515,43.8,West,6862.5,41.9,25.6,True,59.6
+P00162,Logistics,Shipping,155,6710,39.3,West,1881.7,66.5,30.2,False,81.4
+P00163,Manufacturing,Plastics,397,13510,8.4,East,7377.2,80.0,24.7,False,79.6
+P00164,Manufacturing,Pharma,312,3392,62.8,West,2458.5,92.6,18.0,True,93.8
+P00165,IT Services,DataCenter,90,3816,2.1,Central,493.3,51.9,30.4,True,61.4
+P00166,FoodProcessing,Dairy,217,10301,24.9,Central,3973.2,70.6,18.2,False,73.0
+P00167,FoodProcessing,Bakery,38,13975,25.1,West,1240.3,90.9,15.7,False,64.5
+P00168,Manufacturing,Textile,124,492,94.3,North,3198.0,85.8,33.0,False,66.7
+P00169,IT Services,Cybersecurity,83,8180,7.6,North,599.3,68.3,27.2,True,79.2
+P00170,Manufacturing,Plastics,389,7888,80.4,East,4167.1,99.5,38.8,False,89.2
+P00171,IT Services,DataCenter,495,10781,10.7,East,4961.4,36.4,3.3,False,64.7
+P00172,Manufacturing,Textile,467,11285,2.0,South,7608.4,97.4,19.1,False,72.1
+P00173,Retail,Pharmacy,144,6078,98.0,West,3158.9,87.8,26.3,True,68.1
+P00174,Manufacturing,Automotive,157,4683,43.8,North,8425.2,50.6,4.9,True,49.1
+P00175,Logistics,Trucking,487,14557,81.8,Central,11837.4,64.9,33.7,False,72.7
+P00176,Warehousing,Distribution,349,10873,54.4,East,6708.7,41.0,38.6,False,75.6
+P00177,Warehousing,CrossDock,425,1824,74.6,East,5279.5,41.1,23.1,False,77.7
+P00178,FoodProcessing,Bakery,148,6372,74.4,South,2642.2,92.2,26.3,True,75.7
+P00179,FoodProcessing,Snacks,415,11429,36.2,East,7489.9,84.5,1.4,False,75.2
+P00180,Logistics,Trucking,441,7644,68.2,South,11040.2,67.6,5.0,False,67.6
+P00181,Warehousing,Fulfillment,28,1113,59.7,South,403.9,35.2,24.8,False,71.8
+P00182,Manufacturing,Pharma,277,11482,87.6,West,8563.4,49.7,28.1,True,57.0
+P00183,Retail,DepartmentStore,407,14594,3.3,South,5724.0,80.2,29.8,False,54.7
+P00184,FoodProcessing,Meat,436,13127,13.1,East,7537.9,39.1,32.1,False,80.5
+P00185,Manufacturing,Chemical,165,10740,64.1,Central,3430.8,99.4,29.9,False,79.9
+P00186,Retail,Pharmacy,65,8429,34.1,North,798.5,54.4,37.6,True,77.8
+P00187,Logistics,Shipping,73,13760,46.7,East,651.8,80.9,25.2,True,86.4
+P00188,Retail,Electronics,284,3484,1.7,North,4642.5,65.7,0.5,True,67.1
+P00189,Retail,DepartmentStore,395,262,28.3,West,4890.0,52.4,6.3,False,68.3
+P00190,IT Services,DataCenter,254,974,14.8,South,1153.7,93.5,0.9,False,87.8
+P00191,Warehousing,Ecommerce,430,12029,42.5,Central,13534.6,51.7,26.2,True,58.8
+P00192,Manufacturing,Electronics,349,13240,61.2,East,6165.5,49.6,10.0,False,74.5
+P00193,Manufacturing,Textile,65,7621,41.0,Central,2547.0,74.8,9.0,False,60.3
+P00194,Retail,Pharmacy,6,14457,85.1,Central,70.6,77.3,21.8,True,83.4
+P00195,Logistics,AirCargo,142,710,6.1,East,2251.8,45.7,13.2,False,77.7
+P00196,Logistics,LastMile,96,881,24.6,West,2651.7,36.8,2.6,False,67.5
+P00197,Warehousing,Logistics,231,4969,37.8,South,1568.3,63.7,7.8,True,81.3
+P00198,Warehousing,Fulfillment,168,8776,63.8,North,3727.5,69.6,6.3,False,79.8
+P00199,Warehousing,ColdStorage,369,358,89.8,East,7867.8,37.2,14.5,False,63.4
+P00200,IT Services,SaaS,482,11305,96.8,West,4404.2,66.5,4.9,False,82.2
+P00201,Retail,Furniture,106,1629,43.3,West,2177.8,92.9,3.2,False,74.0
+P00202,FoodProcessing,Meat,269,9687,91.9,Central,8943.3,93.6,26.1,True,65.7
+P00203,Retail,DepartmentStore,80,12863,53.0,East,746.3,81.7,16.8,False,71.9
+P00204,IT Services,FinTech,318,1198,65.5,South,2139.3,65.6,39.2,False,87.6
+P00205,Warehousing,CrossDock,70,4678,68.9,South,1513.9,53.2,25.7,False,75.6
+P00206,Manufacturing,Plastics,231,9628,31.1,Central,8924.6,84.8,31.5,False,67.0
+P00207,Retail,Electronics,138,7518,1.0,North,1622.3,49.7,15.3,True,67.2
+P00208,IT Services,Cybersecurity,88,10196,5.2,East,744.5,90.8,11.7,False,68.5
+P00209,Retail,Electronics,288,5175,98.2,North,5431.3,69.6,25.4,False,72.8
+P00210,Logistics,LastMile,168,10804,24.9,Central,3239.5,73.9,11.9,True,68.6
+P00211,Logistics,Trucking,72,1087,85.4,West,2421.7,47.0,3.2,True,71.4
+P00212,Manufacturing,Metal,39,878,99.5,West,820.2,89.0,24.0,True,75.3
+P00213,FoodProcessing,Dairy,397,13735,87.0,Central,6204.0,45.7,6.8,False,77.9
+P00214,Logistics,AirCargo,161,12566,24.5,North,2500.9,66.7,26.1,False,77.4
+P00215,Retail,Electronics,261,9402,41.3,North,4667.8,50.5,18.8,False,66.9
+P00216,FoodProcessing,Dairy,428,8433,61.5,East,8054.7,35.4,0.3,True,73.4
+P00217,IT Services,DataCenter,357,4797,46.8,West,1920.9,37.9,11.1,False,79.3
+P00218,Manufacturing,Textile,348,10104,35.2,North,12317.3,80.6,39.7,True,62.0
+P00219,Logistics,LastMile,172,11983,73.3,North,3513.0,78.8,11.9,False,71.3
+P00220,Warehousing,ColdStorage,12,13246,1.2,Central,209.1,91.7,10.3,False,66.6
+P00221,Manufacturing,Plastics,86,14920,13.0,West,2468.3,40.2,14.2,False,56.1
+P00222,FoodProcessing,Dairy,454,1942,59.8,South,14028.5,82.1,4.8,False,72.2
+P00223,Logistics,Rail,85,4108,42.8,South,1893.7,37.8,4.9,False,61.6
+P00224,Manufacturing,Plastics,298,1919,39.4,North,5768.4,70.3,34.5,False,77.6
+P00225,Warehousing,ColdStorage,199,13567,58.3,East,4469.7,35.8,14.8,True,73.9
+P00226,Warehousing,Logistics,444,7935,43.6,South,4820.2,77.0,25.5,True,75.1
+P00227,IT Services,Cybersecurity,309,11220,68.0,East,1369.5,99.2,18.2,False,88.6
+P00228,FoodProcessing,Bakery,418,9691,97.8,Central,5496.5,48.6,37.0,False,78.8
+P00229,IT Services,Cloud,129,1010,49.3,East,1083.1,59.4,19.0,False,69.4
+P00230,Retail,Furniture,373,9088,29.6,North,4732.8,57.1,21.7,True,73.0
+P00231,Manufacturing,Pharma,369,5016,83.5,South,4859.7,47.7,2.3,True,80.8
+P00232,Warehousing,CrossDock,143,458,54.9,West,3990.1,44.8,32.7,True,61.9
+P00233,FoodProcessing,Dairy,256,8117,62.7,East,7514.8,60.7,1.6,False,60.9
+P00234,Warehousing,AutomotiveParts,68,3262,91.0,East,1772.4,43.5,31.6,True,76.9
+P00235,Manufacturing,Chemical,50,13405,94.5,North,1747.8,66.4,34.5,False,65.1
+P00236,Retail,Furniture,421,8225,76.4,East,6219.6,72.5,34.6,False,56.1
+P00237,Retail,Furniture,179,6242,59.5,East,3165.3,38.9,0.1,False,77.8
+P00238,Manufacturing,Electronics,447,7080,51.5,East,10364.9,66.0,27.5,False,66.1
+P00239,Logistics,Shipping,324,12513,64.8,South,7051.7,69.4,31.7,False,79.0
+P00240,Retail,Grocery,492,11690,1.2,North,7207.2,39.5,0.2,False,69.1
+P00241,Warehousing,Logistics,168,12934,61.7,North,2491.9,61.5,16.3,True,65.8
+P00242,IT Services,Consulting,465,12048,70.1,West,3526.8,89.7,9.7,False,71.0
+P00243,Retail,Grocery,17,14619,30.2,South,227.2,95.4,16.2,False,71.1
+P00244,FoodProcessing,Grain,405,5889,97.9,North,6209.2,43.0,35.5,False,88.4
+P00245,Logistics,Shipping,488,5675,55.9,South,11615.1,50.3,12.1,True,77.9
+P00246,Logistics,AirCargo,63,5690,72.3,Central,1225.3,88.5,28.9,True,76.8
+P00247,Manufacturing,Plastics,483,9556,51.6,North,14943.2,35.2,9.9,False,73.2
+P00248,FoodProcessing,Meat,125,2724,13.9,East,3966.0,94.0,37.7,False,62.9
+P00249,Logistics,AirCargo,425,10740,69.0,East,3939.8,80.8,0.2,True,87.6
+P00250,FoodProcessing,Beverages,105,9220,28.6,Central,3496.3,52.5,19.0,False,63.1
+P00251,FoodProcessing,Bakery,105,5721,95.7,North,716.8,48.6,14.7,False,91.3
+P00252,Warehousing,Ecommerce,17,2357,55.7,North,440.9,91.5,29.2,False,54.7
+P00253,Warehousing,CrossDock,241,8453,40.1,Central,4891.4,72.6,3.4,True,67.3
+P00254,FoodProcessing,Dairy,122,10393,52.1,North,2459.8,59.6,13.5,True,61.9
+P00255,Warehousing,AutomotiveParts,167,8188,73.9,South,3345.7,82.1,35.1,True,63.7
+P00256,Retail,DepartmentStore,344,4314,77.6,North,6378.4,43.2,0.7,False,76.8
+P00257,Logistics,Trucking,425,11754,2.7,South,11768.2,57.6,14.9,True,58.9
+P00258,IT Services,SaaS,465,3818,88.0,West,5664.6,74.4,11.6,True,75.8
+P00259,IT Services,DataCenter,417,8780,93.8,East,2333.6,78.7,23.3,False,86.7
+P00260,FoodProcessing,Meat,335,12163,8.5,South,4502.0,44.2,24.9,False,76.4
+P00261,FoodProcessing,Beverages,465,3864,53.2,East,18129.5,56.9,29.0,False,64.2
+P00262,Manufacturing,Metal,286,10068,93.1,South,3534.0,62.0,12.1,False,81.7
+P00263,FoodProcessing,Bakery,50,10792,62.5,Central,787.7,71.5,34.6,False,80.8
+P00264,FoodProcessing,Beverages,165,7988,98.1,West,3721.7,97.4,7.9,False,68.5
+P00265,IT Services,Cloud,336,5358,46.4,North,2688.1,60.7,38.1,False,82.8
+P00266,FoodProcessing,Bakery,499,14017,64.4,West,9468.3,85.2,20.0,True,79.5
+P00267,Retail,Furniture,480,3683,55.6,Central,5948.8,87.5,10.2,True,76.0
+P00268,FoodProcessing,Beverages,145,1296,12.7,West,3530.5,99.6,1.8,False,67.9
+P00269,Manufacturing,Electronics,408,728,4.2,West,9676.5,75.4,39.7,False,67.3
+P00270,FoodProcessing,Beverages,328,3108,24.8,South,6576.9,37.5,1.4,True,65.1
+P00271,Retail,Pharmacy,225,13991,58.6,North,4753.6,84.3,11.3,False,47.4
+P00272,Retail,Pharmacy,466,2279,82.5,Central,5518.1,51.6,11.8,False,74.1
+P00273,Logistics,AirCargo,479,14301,94.1,North,4363.1,89.3,13.3,False,90.5
+P00274,Retail,Furniture,294,8220,46.9,East,4054.5,69.6,23.6,True,74.6
+P00275,Logistics,LastMile,142,11019,23.4,North,1906.9,35.1,29.2,False,72.7
+P00276,Logistics,Rail,243,3340,85.0,West,2720.9,81.3,32.7,True,79.6
+P00277,Logistics,Rail,43,11891,75.7,West,1416.0,40.1,21.8,False,50.5
+P00278,IT Services,Cloud,469,3822,63.2,North,2977.0,76.1,5.2,False,81.9
+P00279,Manufacturing,Textile,55,12167,97.3,North,869.4,41.4,32.1,True,78.1
+P00280,Retail,Pharmacy,85,3589,80.9,North,922.9,98.6,34.3,False,68.7
+P00281,Warehousing,Ecommerce,187,4387,50.1,Central,3186.2,82.7,15.4,True,76.3
+P00282,Warehousing,Distribution,293,1393,84.5,South,6056.9,80.9,21.4,False,64.5
+P00283,FoodProcessing,Dairy,287,11699,86.4,Central,7979.9,60.8,5.3,False,63.7
+P00284,Warehousing,Ecommerce,432,11514,32.3,West,6425.9,55.3,37.4,False,76.7
+P00285,IT Services,Consulting,468,7391,19.5,South,3385.3,61.8,37.4,False,69.2
+P00286,Warehousing,AutomotiveParts,122,987,78.6,Central,2348.3,56.6,2.3,False,65.5
+P00287,Warehousing,Logistics,88,3865,73.6,Central,2197.2,74.1,39.6,True,66.2
+P00288,Retail,Apparel,396,6461,45.6,North,6284.5,47.3,23.3,True,67.3
+P00289,Manufacturing,Chemical,391,13165,52.2,East,13367.3,79.8,5.8,False,71.3
+P00290,IT Services,SaaS,479,2700,10.1,West,6659.4,52.4,0.6,False,64.2
+P00291,IT Services,Cloud,485,7619,61.4,North,3324.0,91.3,37.9,True,73.8
+P00292,Retail,Pharmacy,154,3094,88.4,East,2652.2,79.2,16.3,True,60.4
+P00293,Warehousing,Ecommerce,141,7431,94.0,North,3563.5,83.1,8.6,False,60.1
+P00294,Retail,Grocery,58,13077,10.2,East,841.6,51.8,17.4,False,68.6
+P00295,Retail,Electronics,277,4238,64.1,West,3518.2,48.0,35.1,False,59.1
+P00296,Manufacturing,Textile,303,5139,91.2,Central,5323.5,73.8,23.8,False,67.9
+P00297,Retail,Grocery,168,7710,29.0,East,2090.1,51.5,39.5,True,80.2
+P00298,Logistics,Shipping,77,10848,58.9,North,890.2,93.2,26.7,False,84.3
+P00299,FoodProcessing,Bakery,62,4558,64.2,Central,1518.4,44.4,31.4,False,76.4
+P00300,Logistics,Rail,189,13616,30.8,South,3422.0,95.3,4.2,False,75.2
+P00301,Logistics,Courier,125,7652,92.5,South,3257.0,96.3,29.9,False,64.7
+P00302,Warehousing,Distribution,456,12456,1.8,East,9167.1,51.6,29.7,True,74.7
+P00303,Manufacturing,Pharma,40,13009,36.1,Central,1615.8,41.7,15.7,False,64.7
+P00304,IT Services,FinTech,122,10600,68.0,North,1316.8,63.5,24.4,True,69.5
+P00305,FoodProcessing,Grain,499,1747,12.6,West,15031.1,45.5,3.3,True,67.3
+P00306,IT Services,Cloud,466,4829,36.1,East,4012.2,74.5,9.8,True,70.1
+P00307,Logistics,Rail,156,7851,98.6,West,5768.8,79.1,16.5,False,56.2
+P00308,FoodProcessing,Bakery,145,7001,58.0,South,4338.1,63.5,39.2,False,80.0
+P00309,FoodProcessing,Grain,309,5226,77.5,South,10290.3,61.5,35.4,True,63.9
+P00310,Retail,Furniture,314,6911,70.0,North,5080.3,48.2,5.1,True,79.8
+P00311,Logistics,LastMile,151,5157,41.1,East,2886.1,77.1,0.6,True,72.4
+P00312,Retail,DepartmentStore,243,6428,74.6,West,4554.8,64.3,20.5,False,74.7
+P00313,Warehousing,CrossDock,238,12096,45.2,East,5261.0,80.9,15.0,False,67.5
+P00314,IT Services,Cloud,100,8126,38.5,East,897.2,76.1,3.8,True,69.2
+P00315,Manufacturing,Chemical,254,6557,78.4,North,8538.8,44.1,26.8,False,67.5
+P00316,FoodProcessing,Beverages,269,3042,89.2,West,8121.9,73.8,26.2,False,68.4
+P00317,FoodProcessing,Grain,336,9997,42.1,South,6783.0,47.0,24.0,False,83.6
+P00318,Logistics,AirCargo,304,12782,19.6,South,6563.2,88.4,26.4,False,65.9
+P00319,Logistics,Courier,243,4390,94.0,North,2969.0,47.4,27.8,True,86.2
+P00320,Warehousing,Ecommerce,491,9266,82.3,South,12516.0,85.3,29.9,True,67.2
+P00321,Manufacturing,Pharma,409,8899,25.1,Central,10903.8,56.0,35.9,False,74.4
+P00322,FoodProcessing,Grain,262,2478,81.5,South,8946.4,55.7,38.4,False,45.7
+P00323,FoodProcessing,Beverages,418,14434,8.9,East,5803.6,68.3,0.2,False,83.3
+P00324,FoodProcessing,Grain,142,12726,58.5,Central,4588.3,49.9,23.9,False,54.3
+P00325,Logistics,Shipping,201,3362,22.0,West,6388.7,73.6,2.1,False,64.4
+P00326,Retail,Electronics,380,14906,92.6,South,5029.9,98.3,2.8,False,74.7
+P00327,Manufacturing,Plastics,197,1778,21.2,West,5484.9,96.7,2.4,False,66.6
+P00328,Manufacturing,Plastics,47,306,84.0,East,935.0,45.0,22.9,True,92.7
+P00329,Warehousing,AutomotiveParts,79,8235,10.4,South,1644.9,50.0,36.6,False,61.6
+P00330,Logistics,Courier,11,1075,86.4,East,265.0,53.6,32.1,False,72.3
+P00331,Warehousing,CrossDock,469,14162,60.7,South,12524.0,43.3,13.9,False,66.4
+P00332,Warehousing,Logistics,68,7053,93.9,North,958.0,48.7,9.2,False,67.8
+P00333,Logistics,Shipping,275,6728,53.5,West,5853.0,49.3,0.8,False,70.7
+P00334,Warehousing,Logistics,129,1136,7.2,West,2335.9,57.3,34.6,True,62.8
+P00335,Logistics,Shipping,480,3473,80.6,East,11221.1,44.4,25.0,True,62.9
+P00336,Logistics,Trucking,251,2882,31.3,North,4409.4,72.3,26.7,False,67.3
+P00337,Retail,Pharmacy,36,2540,94.1,North,497.2,77.6,22.4,False,68.1
+P00338,Warehousing,Ecommerce,231,4243,41.3,North,4644.1,43.2,7.9,False,64.1
+P00339,FoodProcessing,Snacks,81,13404,51.8,East,2328.1,95.6,29.7,True,77.0
+P00340,Logistics,AirCargo,226,5670,22.7,Central,4811.5,95.3,38.8,False,64.5
+P00341,Manufacturing,Metal,398,4582,89.5,East,15234.9,56.9,39.5,True,56.3
+P00342,Logistics,LastMile,88,3658,59.3,South,2396.3,38.5,15.1,True,71.8
+P00343,Warehousing,Logistics,403,2096,10.3,North,7045.4,53.9,8.3,True,63.6
+P00344,IT Services,SaaS,160,5692,70.5,Central,1949.0,80.8,37.4,False,62.7
+P00345,Logistics,Courier,273,13582,4.0,South,5138.5,75.0,36.4,False,68.9
+P00346,FoodProcessing,Meat,317,14743,92.9,North,5526.3,65.3,30.9,False,79.3
+P00347,IT Services,Cybersecurity,325,14542,80.3,West,3077.9,85.2,9.5,False,56.2
+P00348,FoodProcessing,Snacks,106,8200,75.2,South,1751.2,62.2,11.7,True,75.6
+P00349,Retail,Electronics,277,9321,68.2,West,5987.2,92.5,29.6,True,61.2
+P00350,IT Services,DataCenter,273,407,68.1,South,1312.3,86.6,11.1,True,86.2
+P00351,IT Services,DataCenter,430,12597,99.2,North,5291.2,64.4,7.9,True,67.7
+P00352,Warehousing,Ecommerce,29,7778,50.7,Central,606.6,83.8,30.2,False,63.2
+P00353,IT Services,SaaS,446,3454,6.5,East,2882.5,92.5,35.8,False,85.9
+P00354,Manufacturing,Metal,70,4865,94.1,North,2934.9,46.3,19.4,True,63.8
+P00355,FoodProcessing,Bakery,370,5143,73.7,South,10683.5,58.1,1.8,True,70.5
+P00356,Warehousing,Distribution,153,4159,87.4,South,4269.5,71.4,37.7,True,56.9
+P00357,IT Services,SaaS,382,11600,8.5,Central,2952.6,49.7,35.8,False,74.2
+P00358,Warehousing,Distribution,480,6351,11.2,East,8970.0,96.0,32.7,False,61.9
+P00359,Manufacturing,Plastics,473,1819,35.4,South,9926.1,74.9,10.1,False,82.5
+P00360,Logistics,Shipping,339,9524,8.6,Central,6137.7,38.4,22.3,True,69.9
+P00361,Logistics,Trucking,266,12550,22.9,Central,9085.3,60.0,18.4,True,58.7
+P00362,IT Services,DataCenter,474,8084,42.7,Central,4390.2,51.2,26.2,False,65.9
+P00363,Warehousing,Logistics,18,9777,7.8,North,291.9,96.0,26.5,True,76.2
+P00364,IT Services,DataCenter,167,8195,94.1,West,1405.2,93.5,38.5,False,69.4
+P00365,Warehousing,CrossDock,132,10737,28.5,South,2247.8,36.9,36.3,True,70.6
+P00366,Retail,Furniture,198,13698,10.5,Central,2601.3,38.3,18.6,False,71.0
+P00367,FoodProcessing,Dairy,290,9773,32.2,East,6095.2,77.8,0.3,False,68.2
+P00368,FoodProcessing,Snacks,8,3264,91.6,West,221.3,68.4,12.3,False,62.7
+P00369,IT Services,FinTech,110,3822,71.6,East,610.3,48.7,34.3,False,84.0
+P00370,IT Services,Cybersecurity,472,2297,78.5,North,4740.0,79.7,4.8,False,67.8
+P00371,Retail,Electronics,179,13480,31.4,Central,873.8,46.1,16.7,False,93.2
+P00372,Logistics,Shipping,498,13725,34.7,North,7234.0,50.3,33.2,False,68.7
+P00373,Manufacturing,Metal,336,14556,42.5,South,3526.6,72.9,0.5,False,90.9
+P00374,Retail,Furniture,337,14311,97.4,West,3008.8,52.6,36.2,False,84.7
+P00375,Logistics,AirCargo,145,1889,17.2,West,2251.8,40.7,3.6,True,69.9
+P00376,Logistics,LastMile,105,9217,28.7,West,3680.0,84.3,29.1,False,54.6
+P00377,Logistics,AirCargo,465,4813,21.7,East,11908.6,82.7,13.9,False,64.7
+P00378,Retail,Pharmacy,34,144,34.4,West,516.6,57.4,13.5,True,78.4
+P00379,Manufacturing,Plastics,407,13961,24.8,East,15646.8,88.6,15.9,True,65.3
+P00380,Logistics,Rail,282,10269,4.5,Central,5073.2,46.0,14.1,False,53.4
+P00381,FoodProcessing,Grain,99,13592,77.0,East,1473.3,78.2,20.0,False,72.3
+P00382,FoodProcessing,Beverages,399,986,10.9,North,9293.6,65.6,19.7,True,78.0
+P00383,Warehousing,CrossDock,203,5605,60.6,South,2905.2,41.1,38.6,True,75.5
+P00384,IT Services,Cloud,373,2329,60.7,East,3805.2,52.9,30.7,True,73.4
+P00385,Warehousing,ColdStorage,337,1115,75.0,North,8731.5,37.9,29.4,True,62.9
+P00386,Retail,Apparel,16,5643,13.5,South,270.5,89.7,19.3,False,67.9
+P00387,IT Services,DataCenter,412,14425,30.3,West,2856.1,92.9,23.1,False,68.7
+P00388,FoodProcessing,Bakery,150,10043,34.8,Central,2707.3,81.5,11.7,False,75.2
+P00389,FoodProcessing,Meat,100,11280,68.3,North,1633.0,52.7,8.7,False,72.1
+P00390,IT Services,Cybersecurity,404,13748,66.8,West,1577.1,41.1,33.3,False,86.9
+P00391,Retail,Pharmacy,287,471,64.8,Central,3708.4,35.9,12.9,False,72.3
+P00392,Logistics,Courier,255,7991,57.0,Central,4530.5,59.7,24.3,False,76.6
+P00393,Manufacturing,Plastics,216,14266,9.0,North,3582.8,92.9,18.6,True,75.0
+P00394,FoodProcessing,Dairy,198,12288,86.1,North,6176.1,83.0,26.7,True,61.5
+P00395,Warehousing,CrossDock,77,14090,87.4,West,2376.7,47.1,1.0,True,56.8
+P00396,Warehousing,Ecommerce,369,12217,24.0,Central,8008.4,53.3,11.9,True,60.4
+P00397,Manufacturing,Chemical,244,13962,97.6,East,4045.0,54.2,37.3,False,75.4
+P00398,IT Services,Cybersecurity,234,13780,61.8,West,2704.3,76.7,18.6,True,60.9
+P00399,Retail,DepartmentStore,431,11926,91.2,West,4958.5,60.7,30.3,False,83.8
+P00400,IT Services,DataCenter,219,10768,12.9,North,2022.1,39.0,13.6,False,67.2
+P00401,Logistics,Rail,277,11302,45.7,West,3335.5,92.4,16.6,False,70.2
+P00402,FoodProcessing,Snacks,426,11450,42.1,West,7010.2,46.7,10.5,False,76.9
+P00403,Retail,DepartmentStore,312,8964,13.6,East,3590.0,48.6,2.3,False,76.6
+P00404,Logistics,Shipping,193,4486,12.5,North,3397.8,79.1,23.7,True,71.3
+P00405,Warehousing,Fulfillment,20,11718,16.0,Central,447.0,96.1,30.2,False,48.3
+P00406,Warehousing,AutomotiveParts,70,2255,91.7,East,745.9,79.1,12.9,False,75.4
+P00407,Retail,Pharmacy,204,12027,41.1,West,5975.2,78.7,19.3,False,52.9
+P00408,Logistics,Courier,427,1004,87.5,East,5179.9,36.6,4.7,True,88.8
+P00409,IT Services,Cloud,426,5640,90.6,West,3304.9,48.0,10.6,False,75.5
+P00410,Logistics,Shipping,387,2281,47.1,West,6676.0,91.3,6.6,False,72.1
+P00411,IT Services,FinTech,269,9245,19.3,North,2906.1,69.0,9.1,False,65.8
+P00412,FoodProcessing,Beverages,343,13165,21.0,East,6687.4,68.3,19.3,False,73.4
+P00413,Retail,Furniture,183,12984,3.6,West,4199.0,48.1,10.3,True,75.8
+P00414,Logistics,Shipping,282,11771,53.0,North,3331.2,64.5,18.1,False,81.9
+P00415,Manufacturing,Textile,158,9809,52.3,West,4697.4,79.5,38.0,True,69.0
+P00416,FoodProcessing,Beverages,150,11807,17.8,West,4008.6,61.9,26.1,False,69.1
+P00417,Warehousing,AutomotiveParts,486,2131,95.7,North,11949.6,60.6,9.5,True,61.8
+P00418,Logistics,Shipping,70,4141,55.1,South,1378.7,53.2,14.0,False,63.6
+P00419,IT Services,FinTech,30,6993,96.2,Central,285.5,83.1,24.5,True,79.4
+P00420,IT Services,Cloud,443,12095,42.6,West,6130.2,91.3,2.4,False,62.4
+P00421,Retail,Electronics,130,1466,57.3,Central,2201.2,99.6,0.4,False,66.0
+P00422,Logistics,LastMile,236,12472,99.2,South,4887.3,66.4,16.7,False,68.5
+P00423,IT Services,Cloud,409,12700,20.7,North,2003.9,88.8,10.2,False,74.4
+P00424,Warehousing,Distribution,141,4440,57.2,East,3500.0,66.7,5.3,True,69.2
+P00425,FoodProcessing,Meat,32,7180,19.1,North,762.3,50.8,3.7,True,67.4
+P00426,Retail,Electronics,359,1348,10.1,Central,5758.4,68.9,35.9,True,74.2
+P00427,FoodProcessing,Dairy,130,12878,59.2,West,4639.8,74.8,11.8,True,55.0
+P00428,Retail,Electronics,422,1971,20.7,North,4859.3,73.2,17.1,False,70.8
+P00429,IT Services,FinTech,14,14977,71.8,South,108.1,74.3,15.5,False,72.1
+P00430,FoodProcessing,Dairy,392,11572,3.0,South,16276.4,79.1,37.3,False,45.3
+P00431,Retail,Pharmacy,12,166,5.9,North,155.5,49.3,5.5,False,66.3
+P00432,FoodProcessing,Meat,78,7775,76.0,Central,1426.3,48.6,39.1,False,81.3
+P00433,FoodProcessing,Snacks,183,2344,76.8,South,3650.6,82.4,23.0,True,76.0
+P00434,Logistics,Rail,103,12981,21.5,South,2678.2,35.4,20.9,False,55.1
+P00435,Manufacturing,Chemical,496,6426,15.2,North,13008.8,86.2,36.1,True,67.6
+P00436,IT Services,Cloud,84,6838,87.7,West,1097.7,84.7,5.9,False,62.0
+P00437,Logistics,LastMile,443,14260,67.3,North,6991.2,39.1,7.1,True,71.7
+P00438,IT Services,Cloud,58,9499,24.3,Central,763.1,99.1,23.9,True,59.4
+P00439,Logistics,AirCargo,383,12774,17.7,East,8453.9,90.2,15.3,True,68.7
+P00440,IT Services,Cloud,421,8981,40.8,Central,2112.1,86.5,39.2,False,86.6
+P00441,Logistics,Rail,274,546,70.9,West,5177.1,54.9,13.0,True,73.7
+P00442,IT Services,FinTech,296,10586,27.8,South,3114.3,44.1,0.4,False,58.9
+P00443,Manufacturing,Automotive,338,9180,18.0,West,6572.4,42.9,16.6,True,64.8
+P00444,IT Services,Cybersecurity,213,13768,66.7,South,1117.8,86.0,7.8,False,90.4
+P00445,Retail,Apparel,277,13235,26.4,East,3534.1,73.7,39.8,False,77.6
+P00446,Warehousing,Distribution,169,13899,48.4,North,3447.3,88.4,30.1,False,79.2
+P00447,Manufacturing,Automotive,387,6340,70.9,North,5914.2,83.4,28.4,True,74.0
+P00448,Warehousing,Fulfillment,91,6101,19.8,South,2093.0,57.2,17.8,False,68.5
+P00449,Retail,Apparel,411,11545,2.0,South,7046.5,66.4,39.5,False,79.1
+P00450,Logistics,Shipping,72,6737,40.5,North,1449.0,90.8,13.0,False,76.4
+P00451,IT Services,Cybersecurity,476,13822,1.1,West,2642.0,39.4,7.5,False,74.0
+P00452,Warehousing,Distribution,26,12846,90.6,Central,191.2,97.0,2.4,True,85.1
+P00453,Manufacturing,Metal,211,1233,91.7,North,3990.6,36.3,30.4,True,82.3
+P00454,FoodProcessing,Grain,325,278,48.2,Central,6322.3,66.4,8.5,True,76.9
+P00455,Warehousing,ColdStorage,277,12252,80.5,East,5626.6,92.1,38.1,False,70.8
+P00456,IT Services,Cloud,438,8416,45.3,South,4177.9,78.1,4.7,False,71.5
+P00457,IT Services,Cloud,101,5498,95.1,Central,967.3,82.8,28.0,False,71.0
+P00458,IT Services,Software,321,1690,83.1,Central,4546.6,66.1,30.7,False,53.0
+P00459,FoodProcessing,Bakery,173,2828,91.8,North,5263.1,39.5,13.4,True,72.2
+P00460,Logistics,Shipping,230,8961,81.6,South,3137.4,50.4,12.0,False,75.7
+P00461,Manufacturing,Plastics,288,5940,20.1,East,3360.5,68.6,16.5,True,75.0
+P00462,Warehousing,AutomotiveParts,485,6958,6.5,South,5886.3,40.2,5.9,True,83.4
+P00463,Manufacturing,Pharma,134,5571,48.9,North,4273.2,45.5,38.6,True,69.1
+P00464,IT Services,SaaS,406,13082,29.0,Central,2974.0,48.1,35.6,True,82.3
+P00465,Warehousing,ColdStorage,408,7643,60.1,East,6413.3,83.4,36.8,False,63.5
+P00466,Retail,DepartmentStore,437,6581,83.1,West,3209.5,55.3,29.0,False,86.0
+P00467,Retail,Electronics,360,8152,60.5,West,4163.5,83.4,17.8,True,55.7
+P00468,Logistics,Shipping,491,13247,62.3,Central,13702.4,42.3,23.9,False,53.0
+P00469,Manufacturing,Pharma,67,3110,96.8,West,1810.3,69.1,28.3,True,63.7
+P00470,Retail,Furniture,153,7167,43.4,South,1307.0,44.0,29.5,False,74.5
+P00471,Logistics,Rail,300,7589,85.7,West,4738.4,68.5,19.9,True,79.2
+P00472,Retail,Furniture,127,5465,60.1,West,1834.4,57.1,34.8,True,62.5
+P00473,IT Services,SaaS,147,12579,82.9,East,1230.7,44.1,11.5,False,67.2
+P00474,FoodProcessing,Dairy,426,8107,92.9,East,6853.3,80.3,7.7,True,82.0
+P00475,Retail,Apparel,126,2036,13.0,South,1974.7,74.0,6.7,False,58.2
+P00476,Logistics,Trucking,342,2344,13.3,West,6653.8,56.3,19.5,True,64.1
+P00477,Warehousing,Logistics,12,1774,14.5,South,247.0,85.3,15.4,False,66.8
+P00478,Logistics,Shipping,346,3832,14.5,Central,5366.7,89.4,34.5,True,77.4
+P00479,Retail,DepartmentStore,394,1780,62.7,South,5809.5,56.9,7.2,True,69.1
+P00480,Manufacturing,Electronics,444,2879,11.5,South,8916.8,67.8,30.7,True,76.8
+P00481,Retail,Apparel,283,837,40.8,East,2348.2,70.6,37.8,True,78.2
+P00482,Manufacturing,Pharma,88,3974,86.2,South,2965.9,75.1,35.4,True,53.9
+P00483,Warehousing,Logistics,198,3357,56.9,East,2173.8,90.1,27.4,True,84.4
+P00484,Retail,Electronics,144,4987,42.5,North,1028.6,55.6,8.8,False,80.1
+P00485,Retail,Grocery,390,11310,74.6,West,7823.1,35.7,15.8,False,62.0
+P00486,Warehousing,Ecommerce,333,10883,16.9,West,4952.4,52.7,12.6,False,81.1
+P00487,Warehousing,Distribution,345,11049,47.9,West,5700.5,56.2,18.7,True,59.2
+P00488,IT Services,FinTech,155,2782,21.1,Central,1302.1,36.4,1.4,False,80.4
+P00489,FoodProcessing,Dairy,13,10863,40.9,West,322.3,98.5,7.5,False,67.4
+P00490,FoodProcessing,Bakery,46,8713,28.3,East,1674.8,95.4,8.2,False,55.6
+P00491,Logistics,LastMile,87,4377,29.0,Central,3292.7,59.5,32.1,False,64.3
+P00492,FoodProcessing,Grain,431,4102,54.7,South,7410.8,66.8,5.3,True,84.0
+P00493,Warehousing,ColdStorage,120,11432,29.6,West,2524.8,97.0,34.6,False,53.2
+P00494,Logistics,Shipping,450,6537,79.8,North,9870.2,51.7,37.4,True,69.5
+P00495,Logistics,Rail,102,4122,91.1,East,3054.2,91.2,18.3,False,73.6
+P00496,Warehousing,AutomotiveParts,199,7097,86.5,West,3830.9,45.3,2.5,False,67.2
+P00497,FoodProcessing,Grain,41,4528,65.4,North,706.1,81.5,38.9,True,80.7
+P00498,Manufacturing,Chemical,72,7774,94.1,Central,1662.0,64.9,28.4,False,79.7
+P00499,IT Services,SaaS,96,980,28.9,North,896.4,62.8,1.1,False,65.2
+P00500,Manufacturing,Pharma,450,6464,79.4,North,18062.4,66.7,37.8,True,63.4
